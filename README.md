@@ -4,7 +4,7 @@ Turns any junk text into a usable wordlist for brute-forcing.
 # Installation
 
 ```
-go get -u github.com/hakluke/haklistgen
+go install github.com/hakluke/haklistgen@latest
 ```
 
 # Usage Examples
