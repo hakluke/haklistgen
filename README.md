@@ -35,3 +35,7 @@ cat subdomains.txt urls.txt endpoints.txt | haklistgen | anew wordlist.txt;
 ```
 
 This would save subdomains to `subdomains.txt`, then save httpx output to `urls.txt`, then crawl each url and save the hakrawler output to `endpoints.txt`, then fetch every URL in `endpoints.txt` and make a wordlist out of it, concatenating all of the wordlists to `wordlist.txt`. Then it takes all of the subdomains and urls, and adds words out of the words in those too.
+
+---
+
+Built by [hakluke](https://hakluke.com). I write about hacking and the security industry at [hakluke.com](https://hakluke.com), and I run [HackerContent](https://hackercontent.com), a content marketing agency for cybersecurity companies.
